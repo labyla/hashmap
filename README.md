@@ -1,8 +1,8 @@
 # hashmap
 
-[![Build status](https://github.com/cornelk/hashmap/actions/workflows/go.yaml/badge.svg?branch=main)](https://github.com/cornelk/hashmap/actions)
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/cornelk/hashmap)
-[![Go Report Card](https://goreportcard.com/badge/github.com/cornelk/hashmap)](https://goreportcard.com/report/github.com/cornelk/hashmap)
+[![Build status](https://github.com/labyla/hashmap/actions/workflows/go.yaml/badge.svg?branch=main)](https://github.com/labyla/hashmap/actions)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/labyla/hashmap)
+[![Go Report Card](https://goreportcard.com/badge/github.com/labyla/hashmap)](https://goreportcard.com/report/github.com/labyla/hashmap)
 [![codecov](https://codecov.io/gh/cornelk/hashmap/branch/main/graph/badge.svg?token=NS5UY28V3A)](https://codecov.io/gh/cornelk/hashmap)
 
 ## Overview

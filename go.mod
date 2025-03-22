@@ -1,3 +1,3 @@
-module github.com/cornelk/hashmap
+module github.com/labyla/hashmap
 
 go 1.22
