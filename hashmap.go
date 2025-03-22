@@ -4,6 +4,7 @@ package hashmap
 import (
 	"bytes"
 	"fmt"
+	"iter"
 	"reflect"
 	"strconv"
 	"sync/atomic"
@@ -230,6 +231,16 @@ func (m *Map[Key, Value]) Range(f func(Key, Value) bool) {
 			return
 		}
 		item = item.Next()
+	}
+}
+
+func (m *Map[K, V]) Iterator() iter.Seq2[K, V] {
+	return func(yield func(key K, value V) bool) {
+		for item := m.linkedList.First(); item != nil; item = item.Next() {
+			if !yield(item.key, item.Value()) {
+				return
+			}
+		}
 	}
 }
 
