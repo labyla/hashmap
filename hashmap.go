@@ -244,6 +244,16 @@ func (m *Map[K, V]) Iterator() iter.Seq2[K, V] {
 	}
 }
 
+func (m *Map[K, V]) IteratorValues() iter.Seq2[int, V] {
+	return func(yield func(index int, value V) bool) {
+		for index, item := 0, m.linkedList.First(); item != nil; index, item = index+1, item.Next() {
+			if !yield(index, item.Value()) {
+				return
+			}
+		}
+	}
+}
+
 func (m *Map[Key, Value]) allocate(newSize uintptr) {
 	m.linkedList = NewList[Key, Value]()
 	if m.resizing.CompareAndSwap(0, 1) {

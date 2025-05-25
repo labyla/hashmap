@@ -5,7 +5,7 @@ package hashmap
 import (
 	"testing"
 
-	"github.com/cornelk/hashmap/assert"
+	"github.com/labyla/hashmap/assert"
 )
 
 func TestHashingUintptr(t *testing.T) {

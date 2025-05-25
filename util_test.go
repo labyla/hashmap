@@ -3,7 +3,7 @@ package hashmap
 import (
 	"testing"
 
-	"github.com/cornelk/hashmap/assert"
+	"github.com/labyla/hashmap/assert"
 )
 
 func TestLog2(t *testing.T) {

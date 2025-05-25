@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/cornelk/hashmap/assert"
+	"github.com/labyla/hashmap/assert"
 )
 
 // TestAPICounter shows how to use the hashmap to count REST server API calls.

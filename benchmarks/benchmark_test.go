@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/alphadose/haxmap"
-	"github.com/cornelk/hashmap"
+	"github.com/labyla/hashmap"
 	"github.com/puzpuzpuz/xsync/v2"
 	"github.com/zhangyunhao116/skipmap"
 )
